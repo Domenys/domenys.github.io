@@ -60,6 +60,25 @@
     border-top: none;
 }
 
+.about-text-title {
+    position: relative;
+}
+
+.about-text-title::before {
+    position: absolute;
+    content: '';
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: gray;
+    top: 7px;
+    left: 20px;
+}
+
+.resume-future-plans .resume-future-plans-title {
+    font-size: 24px;
+    font-weight: 700;
+}
 .resume-future-plans p {
     border-left: 3px double gray;
     padding-left: 10px;
