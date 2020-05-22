@@ -84,3 +84,28 @@
     padding-left: 10px;
     line-height: 1.5;
 }
+.resume-contacts {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 40px;
+    color: #606060;
+}
+
+.resume-contacts-box {
+    text-align: center;
+}
+
+.resume-contacts-box .resume-contacts-title,
+.resume-contacts-box .rersume-contacts-text {
+    display: block;
+}
+
+.resume-contacts-box .resume-contacts-title {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.resume-contacts-box .resume-contacts-text {
+    font-weight: 500;
+}
