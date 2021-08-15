@@ -45,6 +45,7 @@
 .resume-work-experience p,
 .resume-future-plans p {
     border-left: 3px double gray;
+    margin-left: 20px;
     padding-left: 10px;
     line-height: 1.5;
 }
