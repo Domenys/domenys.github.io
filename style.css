@@ -42,6 +42,51 @@
   left: 20px;
 }
 
+.resume-work-experience-title span {
+  padding-left: 10px;
+}
+
+.resume-work-experience 
+.resume-work-experience-content {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.resume-work-experience 
+.resume-work-experience-content 
+div {
+  display: flex;
+  flex-direction: column;
+  flex: 1 0 50%;
+  margin-bottom: 10px;
+  border-bottom: 1px solid lightgray;
+  padding-bottom: 10px;
+}
+
+.resume-work-experience 
+.resume-work-experience-content 
+div 
+.resume-work-experience-type {
+  margin-bottom: 10px;
+}
+
+.resume-work-experience 
+.resume-work-experience-content 
+div 
+.resume-work-experience-technology {
+  margin-bottom: 10px;
+  font-style: italic;
+}
+
+.resume-work-experience 
+.resume-work-experience-content 
+div 
+h4 {
+  margin-top: 0;
+}
+
 .resume-work-experience p,
 .resume-future-plans p {
     border-left: 3px double gray;
