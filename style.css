@@ -1,8 +1,8 @@
 .resume-wrapper {
-    max-width: 980px;
-    width: 100%;
-    margin: 0 auto;
-    font-size: 20px;
+  max-width: 980px;
+  width: 100%;
+  margin: 0 auto;
+  font-size: 20px;
 }
 
 .resume-title,
@@ -12,77 +12,34 @@
     text-align: center;
 }
 
-.resume-position,
-.resume-about-title {
-    font-size: 24px;
-    font-weight: 700;
+.resume-position {
+  font-size: 24px;
+  font-weight: 500;
 }
 
-.resume-about,
+.resume-about-me,
+.resume-graduated,
 .resume-future-plans,
 .resume-work-experience {
     margin: 20px 40px 10px 40px;
 }
 
-.resume-about .resume-about-title,
-.resume-about .resume-about-text {
-    padding-left: 40px;
+.resume-about-text {
+  display: block;
+  position: relative;
+  margin-bottom: 10px;
+  padding-left: 40px;
 }
 
-.resume-about-title {
-    display: block;
-}
-
-.resume-about-list {
-    display: flex;
-    flex-direction: row;
-    margin-bottom: 70px;
-}
-
-.resume-about-list li {
-    position: relative;
-    list-style-type: none;
-    padding: 10px;
-    border: 3px solid black;
-    border-right: none;
-}
-
-.resume-about-list li:last-child {
-    border-right: 3px solid black;
-}
-
-.resume-about-list-ul {
-    position: absolute;
-    display: flex;
-    flex-direction: row;
-    top: 45px;
-    left: -3px;
-    padding-left: 0;
-    border-top: none;
-}
-.resume-about-list-ul li {
-    border-top: none;
-}
-
-.about-text-title {
-    position: relative;
-}
-
-.about-text-title::before {
-    position: absolute;
-    content: '';
-    width: 10px;
-    height: 10px;
-    border-radius: 50%;
-    background: gray;
-    top: 7px;
-    left: 20px;
-}
-
-.resume-work-experience .resume-work-experience-title,
-.resume-future-plans .resume-future-plans-title {
-    font-size: 24px;
-    font-weight: 700;
+.resume-about-text::before {
+  position: absolute;
+  content: '';
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: gray;
+  top: 7px;
+  left: 20px;
 }
 
 .resume-work-experience p,
@@ -91,17 +48,16 @@
     padding-left: 10px;
     line-height: 1.5;
 }
-
 .resume-contacts {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    margin-top: 40px;
-    color: #606060;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 40px;
+  color: #606060;
 }
 
 .resume-contacts-box {
-    text-align: center;
+  text-align: center;
 }
 
 .resume-contacts-box .resume-contacts-title,
