@@ -4,19 +4,23 @@
     margin: 0 auto;
     font-size: 20px;
 }
+
 .resume-title,
 .resume-fio,
 .resume-position {
     display: block;
     text-align: center;
 }
+
 .resume-position,
 .resume-about-title {
     font-size: 24px;
     font-weight: 700;
 }
+
 .resume-about,
-.resume-future-plans {
+.resume-future-plans,
+.resume-work-experience {
     margin: 20px 40px 10px 40px;
 }
 
@@ -75,15 +79,19 @@
     left: 20px;
 }
 
+.resume-work-experience .resume-work-experience-title,
 .resume-future-plans .resume-future-plans-title {
     font-size: 24px;
     font-weight: 700;
 }
+
+.resume-work-experience p,
 .resume-future-plans p {
     border-left: 3px double gray;
     padding-left: 10px;
     line-height: 1.5;
 }
+
 .resume-contacts {
     display: flex;
     flex-direction: row;
